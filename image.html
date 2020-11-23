@@ -1,0 +1,121 @@
+<!DOCTYPE html> <!-- permet de définir la language utilisé-->
+<html lang="fr">
+    <!-- indique aux navigateur dans quelle langue est  le site -->
+
+    <head> <!-- tête du document, elle n'est pas visible sur le site-->
+    
+    <meta charset="UTF-8"> <!-- c'est le type d'encodage des caractère ( il en exist plusieure-->
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Indique au navigateur que la larguer de la page fait la largeur de l'ecran et qu'il n'y aucun zoom -->
+    <meta name="description" content="structure de type du site, page d'accueil">
+        <!--description sous le titre-->
+
+    <title>Ma page images</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- lien vers cdjn fontawsome-->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- lien vers la police google fonts-->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- lien vers notre feuille de style-->
+</head>
+<body>
+    <!--corps de document-->
+
+    <header>
+        <!-- zone du haut, ex: bannières, slogan, logo ...-->
+        <div id="logo">
+
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up"></i>
+                </button>
+            </a>
+
+            <img src="img/logo.png" alt="logo HTML CSS">
+
+        </div>
+
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS </h1>
+        </div>
+
+        <div id="social">
+            <a href="www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+
+
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <!-- zone de menu, liens pour navigeur sur le site-->
+        <div class="ancreNav">
+            <a href="index.html"> Structure </a>
+            <a href="textes.html"> Textes </a>
+            <a href="selecteurs.html"  > Selecteurs </a>
+            <a href="image.html"  class="active"> Images </a>
+            <a href="position.html" > Positions </a>
+            <a href="zoning.html" > Zoning </a>
+            <a href="tableaux.html" > Tableaux </a>
+            <a href="listes.html" > Listes </a>
+            <a href="liens_Menu html" > Liens & Menu </a>
+            <a href="formulaires.html" > Formulaires </a>
+            <a href="multimedias.html" > Multimedias </a>
+            <a href="animations.html" > Animations </a>
+        </div>
+
+    </nav>
+    <!-- main>aside+section>div+span+article-->
+     <main>
+        <h2>Images</h2>
+        <section class="imageFond">
+            <h3>Image de Fond en CSS</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Asperiores, sed magni aliquam quos 
+                optio autem labore temporibus quibusdam itaque explicabo, 
+                impedit harum qui sunt 
+                recusandae cupiditate! Magni suscipit quidem perspiciatis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Autem consectetur est laudantium laboriosam. Veniam,
+                laboriosam quaerat animi debitis odio obcaecati?
+            </p>
+        </section>
+
+        <section>
+            <h3>Image dans  HTML </h3>
+            <img src="img/toureiffel.jpg" alt="Cette photo montre la tour Eiffel de Paris">
+        </section>
+
+        <section class="rotationImg">
+            <h3> Image en HTML /CSS</h3>
+
+            <img src="img/light.png" alt="une image pour l'example" class="image">
+            <img src="img/light.png" alt="une image pour l'example" class="image">
+            <img src="img/light.png" alt="une image pour l'example" class="rotation360 image">
+        </section>
+
+     </main>
+
+    <footer>
+       <small>
+            &copy; 2020 Le PoleS (AHMADZAI)
+       </small>
+       
+        <!--Zone du bas ex: liens administratifs, mentions, plan du site, CGU, CGV, contact, copyright ....-->
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!-- permet de définir la language utilisé-->
+<html lang="fr">
+    <!-- indique aux navigateur dans quelle langue est  le site -->
+
+    <head> <!-- tête du document, elle n'est pas visible sur le site-->
+    
+    <meta charset="UTF-8"> <!-- c'est le type d'encodage des caractère ( il en exist plusieure-->
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Indique au navigateur que la larguer de la page fait la largeur de l'ecran et qu'il n'y aucun zoom -->
+    <meta name="description" content="Les textes en HTML">
+        <!--description sous le titre-->
+
+    <title>Ma page textes</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- lien vers cdjn fontawsome-->
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400;1,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- lien vers la police google fonts-->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- lien vers notre feuille de style-->
+</head>
+<body>
+    <!--corps de document-->
+
+    <header>
+        <!-- zone du haut, ex: bannières, slogan, logo ...-->
+        <div id="logo">
+
+            <a href="#logo">
+                <button type="button">
+                    <i class="fas fa-arrow-circle-up"></i>
+                </button>
+            </a>
+
+            <img src="img/logo.png" alt="logo HTML CSS">
+
+        </div>
+
+        <div id="slogan">
+            <h1>Mon premier site en HTML/CSS </h1>
+        </div>
+
+        <div id="social">
+            <a href="www.instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="www.facebook.com" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+
+
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <!-- zone de menu, liens pour navigeur sur le site-->
+        <div class="ancreNav">
+            <a href="index.html"> Structure </a>
+            <a href="textes.html" class="active"> Textes </a>
+            <a href="selecteurs.html" > Selecteurs </a>
+            <a href="image.html" > Images </a>
+            <a href="position.html" > Positions </a>
+            <a href="zoning.html" > Zoning </a>
+            <a href="tableaux.html" > Tableaux </a>
+            <a href="listes.html" > Listes </a>
+            <a href="liens_Menu html" > Liens & Menu </a>
+            <a href="formulaires.html" > Formulaires </a>
+            <a href="multimedias.html" > Multimedias </a>
+            <a href="animations.html" > Animations </a>
+        </div>
+
+    </nav>
+    
+     <main>
+
+        <h2>Les Textes</h2>
+
+        <section>
+            <h3>Titre de la premier section </h3>
+
+            <blockquote>
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea quam minima nisi. Temporibus quia id sapiente iure aliquam? Ducimus alias aliquid ex voluptatibus atque quas perspiciatis ipsum nobis deleniti.
+                <i class="fas fa-quote-right"></i>
+            </blockquote>
+
+            <p>
+                <strong>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis aliquid incidunt saepe amet voluptate corrupti explicabo reiciendis numquam repellat neque! Impedit excepturi pariatur iusto id doloribus facere incidunt vel eum aperiam nesciunt! Et similique possimus impedit assumenda? Iste eveniet quia praesentium incidunt ipsam est accusamus voluptatum illum officiis laborum. Eligendi?
+                </strong>
+            </p>
+
+        </section>
+
+
+        <section class="josefin">
+            <h3>Titre de la section n°2</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dicta, esse voluptatum placeat cupiditate, sint odit facilis libero laborum magni, vitae totam corrupti labore. Enim accusantium voluptas velit perferendis explicabo, perspiciatis quas soluta libero rerum labore. Necessitatibus explicabo repudiandae, perferendis tenetur molestiae placeat pariatur reiciendis ipsum eaque optio ab quas nisi, nihil delectus molestias expedita quis quia et atque. Necessitatibus sit libero tempora magni corporis laborum qui at inventore deserunt nostrum dignissimos non consectetur, mollitia, nulla quas. Tenetur, iusto harum. Quisquam eius minima harum nam hic distinctio natus vitae dicta consectetur rerum. Odit impedit provident saepe doloremque repellat quo fugit?
+            </p>
+        </section>
+
+
+     </main>
+
+    <footer>
+        <!--Zone du bas ex: liens administratifs, mentions, plan du site, CGU, CGV, contact, copyright ....-->
+        <small>  &copy; 2020 Le PoleS (AHMADZAI)</small>
+    </footer>
+
+
+</body>
+</html>
