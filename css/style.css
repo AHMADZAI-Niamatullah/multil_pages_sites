@@ -353,16 +353,45 @@ button{
 }
 
 .dernier{
-
+        height: 170px;
+        width: 170px;
+        margin: 10px;
+        padding-top: 2px;
+        text-align: center;
+        font-size: 25px;
+        background-color: darkred;
+        border: 5px dashed yellow;
 }
 
-.zone, .zone1, .zone2, .zone3, .zone4{
-    height: 150px;
-    width: 150px;
+.zone{
+    height: 70px;
+    background-color: black;  
+}
+
+.zone1, .zone2, .zone3, .zone4{
+    height: 250px;
+    width: 25%;
+    float: left;
+}
+
+.zone1{
+    background-color: blue;
+}
+
+.zone2{
+    background-color: yellow;
+}
+
+.zone3{
     background-color: darkred;
-    border: 1px dashed white;
-    position: relative;
 }
+
+.zone4{
+    background-color: green;
+}
+
+
+
 
 .clear{
     clear: both;
