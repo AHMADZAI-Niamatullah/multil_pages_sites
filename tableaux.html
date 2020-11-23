@@ -11,7 +11,7 @@
     <meta name="description" content="structure de type du site, page d'accueil">
         <!--description sous le titre-->
 
-    <title>Ma page images</title>
+    <title>Ma page tableaux</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <!-- lien vers cdjn fontawsome-->
@@ -64,10 +64,10 @@
             <a href="index.html"> Structure </a>
             <a href="textes.html"> Textes </a>
             <a href="selecteurs.html"  > Selecteurs </a>
-            <a href="image.html"  class="active"> Images </a>
-            <a href="position.html" > Positions </a>
+            <a href="image.html" > Images </a>
+            <a href="position.html"  > Positions </a>
             <a href="zoning.html" > Zoning </a>
-            <a href="tableaux.html" > Tableaux </a>
+            <a href="tableaux.html"  class="active"> Tableaux </a>
             <a href="listes.html" > Listes </a>
             <a href="liens_Menu html" > Liens & Menu </a>
             <a href="formulaires.html" > Formulaires </a>
@@ -78,37 +78,64 @@
     </nav>
     <!-- main>aside+section>div+span+article-->
      <main>
-        <h2>Images</h2>
-        <section class="imageFond">
-            <h3>Image de Fond en CSS</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Asperiores, sed magni aliquam quos 
-                optio autem labore temporibus quibusdam itaque explicabo, 
-                impedit harum qui sunt 
-                recusandae cupiditate! Magni suscipit quidem perspiciatis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Autem consectetur est laudantium laboriosam. Veniam,
-                laboriosam quaerat animi debitis odio obcaecati?
-            </p>
-        </section>
+       <h2>Tableaux</h2>
 
-        <section>
-            <h3>Image dans  HTML </h3>
-            <figure>
-                <img src="img/toureiffel.jpg" alt="Cette photo montre la tour Eiffel de Paris">
-            </figure>
-            <figcaption>Une photo de la tour Eiffel</figcaption>
-        </section>
+       <table class="tableau">
 
-        <section class="rotationImg">
-            <h3> Image en HTML /CSS</h3>
+           <caption>Vols Paris Rome <i class="fas fa-plane-departure"></i></caption>
+            
+           <thead>
 
-            <img src="img/light.png" alt="une image pour l'example" class="image">
-            <img src="img/light.png" alt="une image pour l'example" class="image">
-            <img src="img/light.png" alt="une image pour l'example" class="rotation360 image">
-        </section>
+                <tr>
+                    <th></th>
+                    <td>02/08/2021</td>
+                    <td>03/08/2021</td>
+                    <td>04/08/2021</td>
+                </tr>
 
+            </thead>
+
+            <tfoot>
+
+                <tr>
+                    <td></td>
+                    <td>02/08/2021</td>
+                    <td>03/08/2021</td>
+                    <td>04/08/2021</td>
+                </tr>
+
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <th rowspan="2">Air France</th>
+                    <td>Départ 10h - Arrivée 13h</td>
+                    <td>Départ 15h - Arrivée 18h</td>
+                    <td>Départ 17h - Arrivée 20h</td>
+                </tr>
+
+                <tr>
+                    <td>200€</td>
+                    <td>180€</td>
+                    <td>170€</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2">Alitalia</th>
+                    <td>Départ 6h - Arrivée 9h</td>
+                    <td>Départ 13h - Arrivée 16h</td>
+                    <td>Départ 21h - Arrivée 00h</td>
+                </tr>
+
+                <tr>
+                    <td>120€</td>
+                    <td>250€</td>
+                    <td>180€</td>
+                </tr>
+            </tbody>
+
+       </table>
+        
      </main>
 
     <footer>
